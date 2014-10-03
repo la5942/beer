@@ -12,7 +12,3 @@ _configurator:
 
 _main:
     resource: routing.yml
-
-# AcmeDemoBundle routes (to be removed)
-_beer_demo:
-    resource: "@BeerBundle/Resources/config/routing.yml"
