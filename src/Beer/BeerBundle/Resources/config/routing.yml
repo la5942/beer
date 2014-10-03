@@ -1,0 +1,12 @@
+_welcome:
+    pattern:  /
+    defaults: { _controller: BeerBundle:Welcome:index }
+
+_demo_secured:
+    resource: "@BeerBundle/Controller/SecuredController.php"
+    type:     annotation
+
+_demo:
+    resource: "@BeerBundle/Controller/DemoController.php"
+    type:     annotation
+    prefix:   /demo

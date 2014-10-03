@@ -2,4 +2,4 @@ _assetic:
     resource: .
     type: assetic
 _app:
-    resource: /home/jacob.richardson/Documents/projects/beer/path/app/config/routing_dev.yml
+    resource: /home/jacob.richardson/Documents/projects/beer/app/config/routing_dev.yml
